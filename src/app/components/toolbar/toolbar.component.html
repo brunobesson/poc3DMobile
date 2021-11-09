@@ -1,0 +1,10 @@
+<select alignment="left" #mySelect (change)="onSelectionSkeletonSize(mySelect.value)">
+    <option
+      *ngFor="let size of sizeProject; trackBy: trackByIndex"
+      [value]="size">
+      Project {{size}}
+    </option>
+</select>
+
+
+

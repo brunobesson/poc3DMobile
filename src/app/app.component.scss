@@ -1,0 +1,15 @@
+:host {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+
+  .app-component__3D {
+    flex: 1 1 auto;
+    se-3d-widget {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+}
